@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (b) {
-                    young = "too young";
+                    young = getResources().getString(R.string.checkbox1);
                 } else {
                     young = "";
                 }
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (b) {
-                    simple = "too simple";
+                    simple = getResources().getString(R.string.checkbox2);
                 } else {
                     simple = "";
                 }
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (b) {
-                    naive = "naive";
+                    naive = getResources().getString(R.string.checkbox3);
                 } else {
                     naive = "";
                 }
